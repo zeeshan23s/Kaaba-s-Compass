@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Outer decorative ring -->
+  <circle cx="150" cy="150" r="145" fill="none" stroke="#C8973A" stroke-width="2" opacity="0.3"/>
+  <circle cx="150" cy="150" r="138" fill="none" stroke="#C8973A" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- 16-point tick marks -->
+  <!-- Cardinal (N/S/E/W) - long gold ticks -->
+  <line x1="150" y1="5"   x2="150" y2="28"  stroke="#C8973A" stroke-width="3"/>
+  <line x1="150" y1="272" x2="150" y2="295" stroke="#C8973A" stroke-width="3"/>
+  <line x1="5"   y1="150" x2="28"  y2="150" stroke="#C8973A" stroke-width="3"/>
+  <line x1="272" y1="150" x2="295" y2="150" stroke="#C8973A" stroke-width="3"/>
+
+  <!-- Intercardinal (NE/SE/SW/NW) - medium ticks -->
+  <line x1="253" y1="47"  x2="237" y2="63"  stroke="#C8973A" stroke-width="2" opacity="0.6"/>
+  <line x1="253" y1="253" x2="237" y2="237" stroke="#C8973A" stroke-width="2" opacity="0.6"/>
+  <line x1="47"  y1="253" x2="63"  y2="237" stroke="#C8973A" stroke-width="2" opacity="0.6"/>
+  <line x1="47"  y1="47"  x2="63"  y2="63"  stroke="#C8973A" stroke-width="2" opacity="0.6"/>
+
+  <!-- Secondary intercardinals - short ticks -->
+  <line x1="209" y1="17"  x2="201" y2="31"  stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="283" y1="91"  x2="269" y2="99"  stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="283" y1="209" x2="269" y2="201" stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="209" y1="283" x2="201" y2="269" stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="91"  y1="283" x2="99"  y2="269" stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="17"  y1="209" x2="31"  y2="201" stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="17"  y1="91"  x2="31"  y2="99"  stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+  <line x1="91"  y1="17"  x2="99"  y2="31"  stroke="#C8973A" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Cardinal direction points (diamond shapes) -->
+  <!-- North -->
+  <polygon points="150,8 143,40 150,36 157,40" fill="#C8973A"/>
+  <!-- South -->
+  <polygon points="150,292 143,260 150,264 157,260" fill="#C8973A" opacity="0.5"/>
+  <!-- East -->
+  <polygon points="292,150 260,143 264,150 260,157" fill="#C8973A" opacity="0.5"/>
+  <!-- West -->
+  <polygon points="8,150 40,143 36,150 40,157" fill="#C8973A" opacity="0.5"/>
+
+  <!-- Inner decorative circles -->
+  <circle cx="150" cy="150" r="80"  fill="none" stroke="#C8973A" stroke-width="1" opacity="0.2"/>
+  <circle cx="150" cy="150" r="55"  fill="none" stroke="#C8973A" stroke-width="1" opacity="0.15"/>
+
+  <!-- 8 decorative dots on inner ring -->
+  <circle cx="150" cy="70"  r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="207" cy="93"  r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="230" cy="150" r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="207" cy="207" r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="150" cy="230" r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="93"  cy="207" r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="70"  cy="150" r="3" fill="#C8973A" opacity="0.4"/>
+  <circle cx="93"  cy="93"  r="3" fill="#C8973A" opacity="0.4"/>
+
+  <!-- Cardinal label backgrounds (N/S/E/W) -->
+  <!-- N label -->
+  <text x="150" y="60" text-anchor="middle" font-family="Georgia, serif"
+        font-size="20" font-weight="bold" fill="#C8973A">N</text>
+  <!-- S label -->
+  <text x="150" y="256" text-anchor="middle" font-family="Georgia, serif"
+        font-size="16" fill="#C8973A" opacity="0.6">S</text>
+  <!-- E label -->
+  <text x="256" y="155" text-anchor="middle" font-family="Georgia, serif"
+        font-size="16" fill="#C8973A" opacity="0.6">E</text>
+  <!-- W label -->
+  <text x="44"  y="155" text-anchor="middle" font-family="Georgia, serif"
+        font-size="16" fill="#C8973A" opacity="0.6">W</text>
+
+  <!-- Intercardinal labels -->
+  <text x="235" y="72"  text-anchor="middle" font-family="Arial" font-size="10" fill="#C8973A" opacity="0.4">NE</text>
+  <text x="235" y="234" text-anchor="middle" font-family="Arial" font-size="10" fill="#C8973A" opacity="0.4">SE</text>
+  <text x="65"  y="234" text-anchor="middle" font-family="Arial" font-size="10" fill="#C8973A" opacity="0.4">SW</text>
+  <text x="65"  y="72"  text-anchor="middle" font-family="Arial" font-size="10" fill="#C8973A" opacity="0.4">NW</text>
+
+  <!-- Center pivot -->
+  <circle cx="150" cy="150" r="10" fill="#0D1117" stroke="#C8973A" stroke-width="2"/>
+  <circle cx="150" cy="150" r="3"  fill="#C8973A"/>
+</svg>
